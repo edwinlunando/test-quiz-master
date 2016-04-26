@@ -29,7 +29,11 @@ gem 'spring', group: :development
 gem 'bootstrap-sass', '~> 3.3.4'
 
 gem 'haml-rails'
+gem 'humanize'
+gem 'tinymce-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'byebug'
+  gem 'capybara'
 end
